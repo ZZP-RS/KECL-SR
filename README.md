@@ -90,13 +90,14 @@ scipy==1.6.2
 
 ## 训练模型
 
-要在'ml-1m'数据集上训练KECL-SR，切换到`src`文件夹并运行以下命令：
+要在'ML-1M'和'ML-10M'数据集上训练KECL-SR，切换到`src`文件夹并运行以下命令：
 
 ```
-python main.py --data_name ml-1m 
+python main.py -- data_name ML-1M
+python main.py -- data_name ML-10M 
 ```
 
-## 评估模型
+## 评估模型(以ML-1M为例)
 
 你可以通过运行以下命令直接在测试集上评估已训练的模型：
 
