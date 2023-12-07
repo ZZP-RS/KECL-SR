@@ -3,7 +3,7 @@ This is the code for the paper
 
 Sequential Recommendation for Long-Tail Users based on Knowledge-Enhanced Contrastive Learning(KECL-SR)
 
-The preprocessed datasets are included in the ‘data’ folder, where each line contains an user id and item ids user interactedthat is sorted by timestamp (starting from 1) .
+The preprocessed dataset is contained in the "data" folder, where each line includes a user ID and the corresponding item IDs that the user interacted with, along with timestamps (starting from 1).
 
 # Implementation
 ## Requirements
