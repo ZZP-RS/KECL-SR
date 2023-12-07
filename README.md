@@ -33,14 +33,15 @@ two prepared datasets are included in `data` folder.
 
 ## Train Model
 
-To train KECL-SR on 'ml-1m' dataset, change to the `src` folder and run following command: 
+To train KECL-SR on 'ML-1M' and 'ML-10M' datasets, change to the `src` folder and run following command: 
 
 ```
-python main.py --data_name ml-1m 
+python main.py -- data_name ML-1M
+python main.py -- data_name ML-10M
 ```
 
 
-## Evaluate Model
+## Evaluate Model (ML-1M as example)
 
 You can directly evaluate a trained model on test set by running:
 
